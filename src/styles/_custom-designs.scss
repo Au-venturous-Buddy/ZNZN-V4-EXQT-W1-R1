@@ -11,7 +11,8 @@
   box-shadow: $shadowCenter;
 
   .ext-web-link,
-  .ext-web-link:visited {
+  .ext-web-link:visited,
+  .comic-strip-page-thumbnail {
     color: #00f;
   }
 
@@ -42,15 +43,22 @@
   box-shadow: $shadowCenter;
 }
 
-.comic-strip-page-thumbnail .comic-strip-page-number {
-  color: #00f;
-}
+.character-photo-desc {
+  border: 5px solid rgb(221, 221, 221);
+  background-color: white;
+  margin: 0 auto;
+  max-width: 230px;
+  padding: 1%;
+  border: 5px solid rgb(221, 221, 221);
+  box-shadow: $shadowImg;
 
-.comic-strip-page-thumbnail-current .comic-strip-page-number,
-.comic-strip-page-thumbnail:hover .comic-strip-page-number,
-.comic-strip-page-thumbnail:focus .comic-strip-page-number {
-  color: #00f;
-  background: rgba(0, 205, 0, 0.5);
-  border-left: 5px solid rgba(0, 139, 0, 0.7);
-  border-right: 5px solid rgba(0, 139, 0, 0.7);
+  .character-photo {
+    border: 5px solid rgb(221, 221, 221);
+    border-radius: 0px;
+  }
+
+  .character-short-desc {
+    font-family: "Chalkduster", "Futura", "Segoe UI", Arial, Helvetica, sans-serif;
+    color: blue;
+  }
 }

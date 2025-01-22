@@ -1,10 +1,10 @@
 {
-  "name": "znzn-v4-exsp-w1-r1",
+  "name": "znzn-v4-exqt-w1-r1",
   "author": "Au-venturous Buddy <auventurous.buddy@gmail.com>",
   "main": "main.js",
   "build": {
-    "icon": "src/images/Au-Some Blogs.png",
-    "productName": "Zene the Au-Some Kid",
+    "icon": "src/images/ZNZNV4.png",
+    "productName": "Whose FantaZZtic Five Are You?",
     "files": [
       "public/**/*",
       "main.js"
@@ -46,7 +46,7 @@
     }
   },
   "private": true,
-  "description": "Celebrate World Autism Awareness Month with Zeanne's most Au-some twin brother, Zene!",
+  "description": "Find out which of the FantaZZtic Five are you!",
   "version": "4.1.1.0",
   "license": "0BSD",
   "scripts": {

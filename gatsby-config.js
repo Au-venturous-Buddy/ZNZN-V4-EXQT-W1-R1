@@ -6,10 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Zene the Au-Some Kid",
+    title: "Whose FantaZZtic Five Are You?",
     author: "Au-venturous Buddy"
   },
-  pathPrefix: "/ZNZN-V4-EXSP-W1-R1",
+  pathPrefix: "/ZNZN-V4-EXQT-W1-R1",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -27,15 +27,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Zene the Au-Some Kid`,
-        short_name: `ZNZN-V4-EXSP-W1-R1`,
+        name: `Whose FantaZZtic Five Are You?`,
+        short_name: `ZNZN-V4-EXQT-W1-R1`,
         start_url: `/`,
         background_color: `#017BFF`,
         theme_color: `#017BFF`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
-        icon: `src/images/Au-Some Blogs.png`, // This path is relative to the root of the site.
+        icon: `src/images/ZNZNV4.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,
